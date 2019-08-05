@@ -2,7 +2,6 @@
 title:          GitHub Gallery
 image_folder:   /images/
 max_width:      900px
-sort_by:        path
 date_format:    "%A, %B %-d, %Y"
 ---
 
@@ -19,8 +18,8 @@ date_format:    "%A, %B %-d, %Y"
 <body>
 <ul class="ins-imgs">
 
-    {% assign imgs = (site.static_files | sort: page.sort_by) %}
-    {% for img in imgs reversed %}
+    {% assign imgs = (site.static_files | sort: path) %}
+    {% for img in imgs %}
     {% if img.path contains page.image_folder %}
     {% assign img_name = img.path | remove: page.image_folder | split: '.' | first %}
     {% assign img_date = img.modified_time | date: page.date_format %}
