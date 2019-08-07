@@ -1,0 +1,511 @@
+- file: end-of-file.jpg
+  alt: recursion cat has reached end of file
+  title: EOF
+  source: tiki god at My[confined]Space
+  source_url: http://www.myconfinedspace.com/2007/01/27/recursion-cat-has-reached-end-of-file/
+  date: 2019-08-06
+
+- file: learn-haskell.jpg
+  alt: I SHOULD LEARN HASKELL
+  title: This weekend...
+  source: Julia Silge at StackOverflow Blog
+  source_url: https://stackoverflow.blog/2017/02/07/what-programming-languages-weekends/
+  date: 2019-08-06
+
+- file: i-do-pl.jpg
+  alt: YES I DO PL! SEE&colon; HASKELL!
+  title: Do you PL?
+  source: CHEEZburger
+  source_url: https://cheezburger.com/7079874816
+  date: 2019-08-06
+
+- file: cabal.jpg
+  alt: cabal cat regretts taht she mesed up teh pakages
+  title: cabal install cat
+  source: <tt>typoclass</tt> in <tt>&#35;haskell</tt>
+  source_url: https://www.vex.net/~trebla/haskell/sicp.xhtml
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-7c93JDB
+
+- file: quickcheck.png
+  alt: I IS QUICKCHECK! I IS FINDIN' ALL YR BUGS!!
+  title: Quick, check!
+  source: Erik de Castro Lopo
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-d6VZL26
+
+- file: scheme.jpg
+  alt: SchemeCat iz Higenic
+  title: Scheme macros
+  source: Robert Synnott's LispCats
+  source_url: https://web.archive.org/web/20130530164420/http://myblog.rsynnott.com/2008/06/few-lispcats.html
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-v5Cr2Q3
+
+- file: nreverse.jpg
+  alt: nreverse cat iz deztructiv
+  title: Sequence might be destroyed
+  source: Robert Synnott's LispCats
+  source_url: https://web.archive.org/web/20130530164420/http://myblog.rsynnott.com/2008/06/few-lispcats.html
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-pZvbKS7
+
+- file: gc.jpg
+  alt: Garbage Cllection iz Generatunal
+  title: Kitty litter
+  source: Robert Synnott's LispCats
+  source_url: https://web.archive.org/web/20130530164420/http://myblog.rsynnott.com/2008/06/few-lispcats.html
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-fzCWkFR
+
+- file: doom.jpg
+  alt: Ur Kitteh of Death Awaits
+  title: SBCL
+  source: Robert Synnott's LispCats
+  source_url: https://web.archive.org/web/20130530164420/http://myblog.rsynnott.com/2008/06/few-lispcats.html
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-LpjfMfJ
+
+- file: cale.jpg
+  alt: Why u use uncidable instanczez? How many timez Cale cat tellz u? NO CAN HAS uncidable instanzez?
+  title: Cale Gibbard is decidable
+  source: Christopher Lane Hinson
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-7QXhZMR
+
+- file: extensible.jpg
+  alt: ... extensible exceptions or Either type?
+  title: How to handle errorz
+  source: Christopher Done
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-C735ttv
+
+- file: side-effects.jpg
+  alt: moanad kitti orders and organizes teh sideefects
+  title: Effective organization
+  source: <tt>typoclass</tt> in <tt>&#35;haskell-blah</tt>
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-wC8hJMN
+
+- file: multicore.jpg
+  alt: use +RTS -N opshun fur bes endjoyment of mutlicoar buttwarmr
+  title: Multiple cores for multiple cheeks
+  source: Henk Krauss
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-2zgRG5v
+
+- file: ghc.jpg
+  alt: ghc kitteh refooses 2 compyle ur code, refussees to even look at it
+  title: Glasgow Haskell Cat
+  source: Henk Krauss
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-P46zgN8
+
+- file: loop.jpg
+  alt: tailer cursion halps make looops
+  title: Loopy cat
+  source: Henk Krauss
+  date: 
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-QCR2kgp
+
+- file: recurcat.gif
+  alt: cats = cat &colon; cats
+  title: Maru can haz boxed recursion
+  source: João Paulo Pizani Flor
+  source_url: https://www.reddit.com/r/haskell/comments/kmjiu/someone_should_totally_make_this_into_a_lambdacat/c2lpmtd/
+  date: 2011-09-22
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-dVj9xxz
+
+- file: monad-tutorial.jpg
+  alt: trapd in Monad tutorl. plz help
+  title: You can't escape the monad burrito
+  source: Brent Yorgey
+  source_url: https://byorgey.wordpress.com/2011/05/11/trapd/
+  date: 2011-05-12
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-5KLHJ3V
+
+- file: phillip.jpg
+  alt: phillip cat sez&colon; kitteh iz dual of doggeh
+  title: Philip Wadler on pet duality
+  source: Andrew Bromage
+  date: 2010-08-10
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-TXKZSdf
+
+- file: eugenio.jpg
+  alt: eugenio moggie sez&colon; 2-catergoryz iz better than 1
+  title: Categories in theory
+  source: Andrew Bromage
+  date: 2010-08-10
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-d3hBQQq
+
+- file: fib.jpg
+  alt: o hai. i made u some fibonashee numbrs
+  title: Fibonacci numbers in sequence
+  source: Andrew Bromage
+  date: 2010-08-10
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-8LW2QCx
+
+- file: delimited.jpg
+  alt: O NOES. DILIMITD KONTINUASHUN
+  title: To be continued...
+  source: Andrew Bromage
+  date: 2010-08-10
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-tGhwS5F
+
+- file: offside.jpg
+  alt: offseid rool
+  title: Indent by foot
+  source: Andrew Bromage
+  date: 2010-08-10
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-XbcRrCC
+
+- file: callcc.jpg
+  alt: has Callcc?
+  title: Call me
+  date: 2010-08-07
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-W5JQXMF
+
+- file: unit-testing.jpg
+  alt: O HAI! I MADED U A TEST CASE, but I eated it.
+  title: When Guinea pigs test
+  source: Miia Sample
+  source_url: http://myrtti.fi/blog/2008/09/25/o-hai-i-can-haz-lulz/
+  date: 2008-09-25
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-w8tmt8F
+    - http://arcanux.org/lambdacats/unit-testing.jpg
+
+- file: undecidable.jpg
+  alt: MUMMY!! IZ THERE REALLY UNDECIDABLE TYPE SYSTEM UNDER MY BED?!
+  title: Undecidable type systems
+  source: Clemens Fruhwirth
+  source_url: http://blog.clemens.endorphin.org/2008/09/i-love-lolcat-meme.html
+  date: 2008-09-25
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-sFRhzX6
+    - http://arcanux.org/lambdacats/undecidable.jpg
+
+- file: expected-type.jpg
+  alt: EXPECTID TYPE&colon; CAT -> TAIL, INFURD TYPE&colon; (CAT,TAIL)
+  title: Type error 2
+  source: Mike
+  date: 2008-07-12
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-Xwnjv2H
+    - http://arcanux.org/lambdacats/expected-type.jpg
+
+- file: unsafeperformio.jpg
+  alt: ceiling cat is watching you unsafePerformIO
+  title: unsafePerformIO
+  source: Ashley Yakeley
+  date: 2008-02-19
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-8gBC6Wb
+    - http://arcanux.org/lambdacats/unsafeperformio.jpg
+
+- file: foldl.jpg
+  alt: foldl sleep $ replicate 4 lolkitteh
+  title: foldl
+  source: Jules Bean (quicksilver), ac, Daniel Wagner (dmwit)
+  date: 2008-01-24
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-4TGvqCj
+    - http://arcanux.org/lambdacats/foldl.jpg
+
+- file: static.jpg
+  alt: STATIC CAT is checked at compile time
+  title: Static
+  source: Tim Chevalier
+  date: 2007-12-23
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-3LSmF85
+    - http://arcanux.org/lambdacats/static.jpg
+
+- file: class.jpg
+  alt: polymorphic cat haz class
+  title: Class
+  source: Sterling Clover
+  date: 2007-12-18
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-M22CXrF
+    - http://arcanux.org/lambdacats/class.jpg
+
+- file: eager-vs-lazy.jpg
+  alt: Eager cat is eager, Lazy cat is lazy
+  title: Eager vs. lazy
+  source: Sterling Clover
+  date: 2007-11-26
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-96QX5wH
+    - http://arcanux.org/lambdacats/eager-vs-lazy.jpg
+
+- file: dumb.jpg
+  alt: i kant haskell today i has the dumb
+  title: Can't Haskell
+  source: Alex Tarkovsky
+  date: 2007-11-03
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-MHs3MKC
+    - http://arcanux.org/lambdacats/dumb.jpg
+
+- file: more-curry.jpg
+  alt: needz more curry plz
+  title: More curry
+  source: Alex Tarkovsky
+  date: 2007-11-01
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-rXWgmbf
+    - http://arcanux.org/lambdacats/more-curry.jpg
+
+- file: type-error-2.jpg
+  alt: OH HAI. I fixed ur type error, but it says something about the monomorphism restriction
+  title: Type error
+  source: Tim Chevalier
+  date: 2007-10-25
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-kF6bwjz
+    - http://arcanux.org/lambdacats/type-error-2.jpg
+
+- file: io-monad.jpg
+  alt: trapd in IO monad plz help
+  title: IO monad
+  source: Alex Tarkovsky
+  date: 2007-10-24
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-tSKXkj9
+    - http://arcanux.org/lambdacats/io-monad.jpg
+
+- file: unsafe.jpg
+  alt: unsafeDoggeh#
+  title: Unsafe
+  source: Andrew Bromage
+  date: 2007-10-19
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-jpXBLCD
+    - http://arcanux.org/lambdacats/unsafe.jpg
+
+- file: impossible.jpg
+  alt: o noes teh imposibel jus hapnd!
+  title: The impossible
+  source: Andrew Bromage
+  date: 2007-10-14
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-9nPdvwk
+    - http://arcanux.org/lambdacats/impossible.jpg
+
+- file: boxed.jpg
+  alt: BOXED CAT has a uniform representation
+  title: Boxed
+  source: Tim Chevalier
+  date: 2007-10-14
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-XwKHSBM
+    - http://arcanux.org/lambdacats/boxed.jpg
+
+- file: tagged.jpg
+  alt: TAGGED CAT jumps more predictably
+  title: Tagged
+  source: Tim Chevalier
+  date: 2007-10-14
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-FXrP7T8
+    - http://arcanux.org/lambdacats/tagged.jpg
+
+- file: haddock.jpg
+  alt: i can has haddock?
+  title: Haddock
+  source: Andrew Bromage
+  date: 2007-10-13
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-J7smZk3
+    - http://arcanux.org/lambdacats/haddock.jpg
+
+- file: type-woes.jpg
+  alt: oleg cat sez&colon; see? ur type problim wuz not so hard
+  title: Type woes
+  source: Andrew Bromage
+  date: 2007-10-13
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-pKFBMFq
+    - http://arcanux.org/lambdacats/type-woes.jpg
+
+- file: bytestring.jpg
+  alt: LAZY BITESTRING
+  title: Lazy ByteString
+  source: Andrew Bromage
+  date: 2007-10-13
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-GRjswk9
+    - http://arcanux.org/lambdacats/bytestring.jpg
+
+- file: pretty-print.gif
+  alt: \cat -> vcat (take 4 $ cycle [cat])
+  title: Pretty-printing combinator
+  source: Dmitry Astapov
+  date: 2007-10-13
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-cKDZcTs
+    - http://arcanux.org/lambdacats/pretty-print.gif
+
+- file: brain.jpg
+  alt: mah brain jus explodid
+  title: Haskell will blow your mind
+  source: Andrew Bromage
+  date: 2007-10-13
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-4zrsdBk
+    - http://arcanux.org/lambdacats/brain.jpg
+
+- file: fixed-in-head.jpg
+  alt: simon cat sez&colon; is fixed in teh HEAD kthxbai
+  title: Uh, how about a release?
+  source: Andrew Bromage
+  date: 2007-10-13
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-6djpLdS
+    - http://arcanux.org/lambdacats/fixed-in-head.jpg
+
+- file: transformer.jpg
+  alt: KittehT
+  title: Transformer
+  source: Andrew Bromage
+  date: 2007-10-11
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-sQxNwtJ
+    - http://arcanux.org/lambdacats/transformer.jpg
+
+- file: stream-processing.jpg
+  title: Stream processing
+  alt: streem prosesing
+  source: Andrew Bromage
+  date: 2007-10-11
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-SfKqDJP
+    - http://arcanux.org/lambdacats/stream-processing.jpg
+
+- file: lolcats.jpg
+  title: Formal
+  alt: λcats → map lol cats
+  source: Alex Tarkovsky
+  date: 2007-10-11
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-sWRtXLN
+    - http://arcanux.org/lambdacats/lambdacats.jpg
+
+- file: single-assignment.jpg
+  title: Single assignment
+  alt: promiscuous cat says&colon; wat u meen &ldquo;singl assinemnt&rdquo;?!
+  source: Alex Tarkovsky
+  date: 2007-10-11
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-GWCMkcd
+    - http://arcanux.org/lambdacats/single-assignment.jpg
+
+- file: lift-concat.jpg
+  title: lift concat
+  alt: lift concat
+  source: Shae Erisson
+  date: 2007-10-10
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-NBks6PN
+    - http://arcanux.org/lambdacats/lift-concat.jpg
+
+- file: concatMap.jpg
+  title: concatMap
+  alt: flip concatMap
+  source: Brent Yorgey
+  date: 2007-10-09
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-4mxFBrm
+    - http://arcanux.org/lambdacats/concatMap.jpg
+
+- file: catamorphism.jpg
+  title: Catamorphism
+  alt: i can has catamorfizm?
+  source: Brent Yorgey
+  date: 2007-10-09
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-NLLt4fx
+    - http://arcanux.org/lambdacats/catamorphism.png
+
+- file: xmonad.jpg
+  title: xmonad
+  alt: in ur monitr workin ur xmonad
+  source: Alex Tarkovsky
+  date: 2007-10-09
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-zLvXBRK
+    - http://arcanux.org/lambdacats/xmonad.jpg
+
+- file: tail-recursion.jpg
+  title: Tail recursion
+  alt: TAIL RECURSION
+  source: Alex Tarkovsky
+  date: 2007-10-09
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-4N4Zb6t
+    - http://arcanux.org/lambdacats/tail-recursion.jpg
+
+- file: type-error.jpg
+  title: Type error
+  alt: Couldn't match expected type `Munkie' against inferred type `Kitteh'
+  source: Alex Tarkovsky
+  date: 2007-10-09
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-dW4zF5C
+    - http://arcanux.org/lambdacats/type-error.jpg
+
+- file: imperative.jpg
+  title: Imperative
+  alt: imperative cat is not amused
+  source: Alex Tarkovsky
+  date: 2007-10-09
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-HdRpcrt
+    - http://arcanux.org/lambdacats/imperative.jpg
+
+- file: foldr.jpg
+  title: foldr
+  alt: fillBelly = foldr (++) [] fridgeContents
+  source: Alex Tarkovsky
+  date: 2007-10-09
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-nfFLFvG
+    - http://arcanux.org/lambdacats/foldr.jpg
+
+- file: curry.jpg
+  title: Curry
+  alt: mmm... u haz curry
+  source: Alex Tarkovsky
+  date: 2007-10-09
+  previous:
+    - https://spl.smugmug.com/Humor/Lambdacats/i-Q747zww
+    - http://arcanux.org/lambdacats/curry.jpg
+
+- file: not-curry.jpg
+  title: Curry
+  alt: why u not curry that funkshun?
+  source: Alex Tarkovsky
+  date: 2007-10-09
+  previous:
+    - http://arcanux.org/lambdacats/notcurry.jpg
