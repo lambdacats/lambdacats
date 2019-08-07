@@ -1,22 +1,16 @@
-# GitHub Gallery
+# Lambdacats
 
-![Mock](https://github.com/mikelothar/github-gallery/blob/gh-pages/images/screenshot%20of%20github%20gallery.png?raw=true)
+The famous Lambdacats! The concept originated with the photoblog
+`http://arcanux.org/lambdacats.html`, which is no longer available. In an
+attempt to preserve them for posterity, I have culled from sources far and wide
+to develop this collection, which contains many of the originals as well as many
+images inspired by or similar to the Lambdacats.
 
-[Demo](https://mikelothar.github.io/github-gallery/) | [Repository](https://github.com/mikelothar/github-gallery)
+Notes:
 
-GitHub Gallery is a simple photo gallery, which simply displays all the images it finds in the /images/ folder. It's powered by the Jekyll blog engine, and will work on any such powered pages, for example [GitHub Pages](https://pages.github.com/).
+* This is a work-in-progress migration from
+  `https://spl.smugmug.com/Humor/Lambdacats`, which I no longer pay for.
+* I started with [GitHub Gallery] but expect things to change dramatically.
+* Contributions are welcome!
 
-Images will display up to a max width of 900 pixels. Images larger than 900 pixels will show their full size if you click it.
-
-You can link to a specific image as they're link anchored. Just click on the specific image and copy the browser URL.
-
-## Setting up on GitHub
-There are two simple steps:
-
-* [Sign up for a GitHub account](https://github.com/join?source=header-home). It's free.
-* [Fork](https://help.github.com/articles/fork-a-repo/) the [GitHub Gallery repository](https://github.com/mikelothar/github-gallery).
-* [Add an image](https://help.github.com/articles/adding-a-file-to-a-repository/) into the /images/ folder. 
-
-Your GitHub Gallery should shortly after be available at [https://YOUR_USERNAME.github.io/github-gallery/](http://YOUR_USERNAME.github.io/github-gallery/).
-
-You can ofcourse [delete the old images](https://help.github.com/articles/deleting-files/), as well as [renaming your repository](https://help.github.com/articles/renaming-a-repository/) for a prettier url. 
+[GitHub Gallery]: https://github.com/mikelothar/github-gallery
