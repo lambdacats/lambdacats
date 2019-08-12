@@ -1,0 +1,29 @@
+{% extends "index.html" %}
+
+{% block title %}{{ page.title }}{% endblock title %}
+
+{% block content %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  {% if page.date %}
+  <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+  {% endif %}
+
+  <img src="{{ get_url(path=page.extra.image) }}" alt="{{ page.extra.alt }}">
+
+  {% if page.extra.source %}
+  <p><b>Source:</b> {{ page.extra.source | safe }}</p>
+  {% endif %}
+
+  {% if page.extra.previous %}
+  <p>This image was previously found at the following links:<ul>
+    {% for link in page.extra.previous %}
+    <li><tt>{{ link }}</tt></li>
+    {% endfor %}
+  </ul></p>
+  {% endif %}
+
+  {{ page.content | safe }}
+</div>
+{% endblock content %}

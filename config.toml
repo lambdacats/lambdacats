@@ -1,0 +1,12 @@
+base_url = "https://lambdacats.github.io"
+compile_sass = true
+title = "Lambdacats"
+description = "Insert description here"
+
+[extra]
+hyde_sticky = true
+hyde_reverse = false
+hyde_theme = ""
+side_links = [
+    { url = "/about", name = "About" },
+]

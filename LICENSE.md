@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2016 LTHR.io, 2019 Sean Leather
+Copyright (c) 2017 Vincent Prouillet, 2019 Sean Leather
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

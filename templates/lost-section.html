@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block title %}{{ section.title }}{% endblock title %}
+
+{% block content %}
+<p>
+These are the lost lambdacats. They would like to be found. Please help!
+</p>
+
+<div class="posts">
+  {% for page in section.pages | reverse %}
+  <div class="post">
+    <h1 class="post-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+  </div>
+  {% endfor %}
+</div>
+{% endblock content %}

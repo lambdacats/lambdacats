@@ -1,0 +1,29 @@
+{% extends "index.html" %}
+
+{% block title %}{{ page.title }} - Lost Lambdacat{% endblock title %}
+
+{% block content %}
+<div class="post">
+  <h1 class="post-title">LOST CAT: {{ page.title }}</h1>
+
+  {% if page.date %}
+  <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+  {% endif %}
+
+  <p>This lambdacat is missing. It was previously found at the following links:<ul>
+    {% for link in page.extra.previous %}
+    <li><tt>{{ link }}</tt></li>
+    {% endfor %}
+  </ul></p>
+
+  <p>It had the following <code>alt</code> text: <i>{{ page.extra.alt }}</i></p>
+
+  {% if page.extra.source %}
+  <p>The former owner was: {{ page.extra.source }}</p>
+  {% endif %}
+
+  <p>Please report any sightings <a href="https://github.com/lambdacats/lambdacats.github.io">here</a>.</p>
+
+  {{ page.content | safe }}
+</div>
+{% endblock content %}
