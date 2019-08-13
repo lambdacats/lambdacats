@@ -1,12 +1,16 @@
 # The Famous Lambdacats!
 
-The lambdacats are a category of [lolcats] that generally involve humor from
+The lambdacats are a category of [lolcats] that generally involve humor about
 [Haskell], [functional programming], [type systems], and other related subjects.
 
 [lolcats]: https://en.wikipedia.org/wiki/Lolcat
 [Haskell]: https://en.wikipedia.org/wiki/Haskell_(programming_language)
 [functional programming]: https://en.wikipedia.org/wiki/Functional_programming
 [type systems]: https://en.wikipedia.org/wiki/Type_system
+
+This collection has been culled from sources far and wide. It now contains most
+of the originals as well as many other images inspired by or similar to the
+lambdacats.
 
 This is a service to the community, and, as such, I welcome all contributions,
 including (but not limited to) adding new lambdacats, updating the information
@@ -19,9 +23,9 @@ documentation].
 
 ## History
 
-Alex Tarkovsky [created][1] the lambdacats in October 2007:
+Alex Tarkovsky [created][created1] the lambdacats in October 2007:
 
-[1]: https://mail.haskell.org/pipermail/haskell-cafe/2007-October/032654.html
+[created1]: https://mail.haskell.org/pipermail/haskell-cafe/2007-October/032654.html
 
 ```
 Brandon S. Allbery KF8NH wrote:
@@ -37,12 +41,15 @@ http://arcanux.org/lambdacats.html
 Alex Tarkovsky
 ```
 
-In August 2010, I [created][2] `https://spl.smugmug.com/Humor/Lambdacats` in an
-attempt to preserve them for posterity. I have culled from sources far and wide
-to develop this collection, which now contains many of the originals as well as
-images inspired by or similar to the lambdacats.
+In August 2010, over a year after the [last lambdcat sighting], I
+[created][created2] `https://spl.smugmug.com/Humor/Lambdacats/` in an attempt to
+preserve them for posterity.
 
-[2]: https://mail.haskell.org/pipermail/haskell-cafe/2010-August/081606.html
+[last lambdcat sighting]: https://web.archive.org/web/20090406025530/http://arcanux.org/lambdacats.html
+[created2]: https://mail.haskell.org/pipermail/haskell-cafe/2010-August/081606.html
 
-In August 2019, I ended my SmugMug subscription and created this
-~~repository~~shelter to continue the preservation project.
+I ended my SmugMug subscription in August 2019 and created
+[`https://lambdacats.github.io/`] as a ~~repository~~shelter to continue the
+preservation project.
+
+[`https://lambdacats.github.io/`]: https://lambdacats.github.io/
