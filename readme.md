@@ -19,9 +19,9 @@ administration].
 
 ## History
 
-Alex Tarkovsky [created] the lambdacats in October 2007:
+Alex Tarkovsky [created][1] the lambdacats in October 2007:
 
-[created]: https://mail.haskell.org/pipermail/haskell-cafe/2007-October/032654.html
+[1]: https://mail.haskell.org/pipermail/haskell-cafe/2007-October/032654.html
 
 ```
 Brandon S. Allbery KF8NH wrote:
@@ -37,12 +37,12 @@ http://arcanux.org/lambdacats.html
 Alex Tarkovsky
 ```
 
-In August 2010, I [created] `https://spl.smugmug.com/Humor/Lambdacats` in an
+In August 2010, I [created][2] `https://spl.smugmug.com/Humor/Lambdacats` in an
 attempt to preserve them for posterity. I have culled from sources far and wide
 to develop this collection, which now contains many of the originals as well as
 many images inspired by or similar to the Lambdacats.
 
-[created]: https://mail.haskell.org/pipermail/haskell-cafe/2010-August/081606.html
+[2]: https://mail.haskell.org/pipermail/haskell-cafe/2010-August/081606.html
 
 In August 2019, I ended my SmugMug subscription and created this
 ~~repository~~shelter to continue the preservation project.
