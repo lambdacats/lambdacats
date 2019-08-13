@@ -51,7 +51,12 @@
     <div class="content container">
       {% block content %}
       <div class="posts">
-        {% for page in section.pages | reverse %}
+        {% if paginator %}
+        {% set pages = paginator.pages | reverse %}
+        {% else %}
+        {% set pages = section.pages | reverse %}
+        {% endif %}
+        {% for page in pages %}
         <div class="post">
           <h1 class="post-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
           {# I tried using resize_image here, but: https://github.com/kaksmet/jpeg-decoder/pull/98 #}
@@ -59,6 +64,21 @@
         </div>
         {% endfor %}
       </div>
+      {% if paginator %}
+      <div class="pagination">
+        {% if paginator.previous %}
+        <a href="{{ paginator.previous }}" class="previous">Previous</a>
+        {% else %}
+        <span class="previous">Previous</span>
+        {% endif %}
+        <span class="page_number">Page {{ paginator.current_index }} of {{ paginator.number_pagers }}</span>
+        {% if paginator.next %}
+        <a href="{{ paginator.next }}" class="next">Next</a>
+        {% else %}
+        <span class="next">Next</span>
+        {% endif %}
+      </div>
+      {% endif %}
       {% endblock content %}
     </div>
 
