@@ -10,7 +10,8 @@ cd $(git rev-parse --show-toplevel)
 rm -rf tmp
 
 # If public/ is not found, clone the repository
-if [ ! -d public ]; then
+if [ ! -d public ] || [ ! -d public/.git ]; then
+  rm -rf public
   git clone git@github.com:lambdacats/lambdacats.github.io.git public
 fi
 
