@@ -21,56 +21,70 @@ This is a description of the files and directories in the repository.
 
 #### Documentation
 
-* `license.md`: contains the copyright and license for all files in the
-  repository
+* `admin.md`: the current document
 
-* `readme.md`: introduces the project and serves as a starting point for those
+* [`readme.md`]: introduces the project and serves as a starting point for those
   who might be interested in contributing
 
-* `build.md`: the current document
+* [`license.md`]: contains the copyright and license for all files in the
+  repository
+
+[`readme.md`]: ./readme.md
+[`license.md`]: ./license.md
 
 #### Sources
 
-* `config.toml`: Zola configuration file in [TOML] format. See the [docs].
+* [`config.toml`]: Zola configuration file in [TOML] format. See the
+  [docs][config-docs].
 
+[`config.toml`]: ./config.toml
 [TOML]: https://en.wikipedia.org/wiki/TOML
-[docs]: https://www.getzola.org/documentation/getting-started/configuration/
+[config-docs]: https://www.getzola.org/documentation/getting-started/configuration/
 
-* `content/`: Markdown content files in a directory hierarchy. See the [docs].
+* [`content/`]: Markdown content files in a directory hierarchy. See the
+  [docs][content-docs].
 
-[docs]: https://www.getzola.org/documentation/content/overview/
+[`content/`]: ./content/
+[content-docs]: https://www.getzola.org/documentation/content/overview/
 
-* `sass/`: [SASS] files that will be compiled into CSS and put at the top level
-  of the output directory
+* [`sass/`]: [SASS] files that will be compiled into CSS and put at the top
+  level of the output directory
 
+[`sass/`]: ./sass/
 [SASS]: https://sass-lang.com/
 
-* `static/`: files that will be copied unmodified to the top level of the output
-  directory
+* [`static/`]: files that will be copied unmodified to the top level of the
+  output directory
 
-* `templates/`: Tera template files. See the [docs].
+[`static/`]: ./static/
 
-[docs]: https://www.getzola.org/documentation/templates/overview/
+* [`templates/`]: Tera template files. See the [docs][templates-docs].
+
+[`templates/`]: ./templates/
+[templates-docs]: https://www.getzola.org/documentation/templates/overview/
 
 #### Scripts
 
-* `build`: builds the website on top of the [repository] and indicates if there
-  are changes to deploy
+* [`build`]: builds the website on top of the [repository] and indicates if
+  there are changes to deploy
 
+[`build`]: ./build
 [repository]: https://github.com/lambdacats/lambdacats.github.io
 
-* `deploy`: commits changes made by `build` locally and pushes those commits to
-  the remote repository
+* [`deploy`]: commits changes made by `build` locally and pushes those commits
+  to the remote repository
+
+[`deploy`]: ./deploy
 
 #### Other
 
 The command `zola build` (without flags) outputs generated files into the
-`public/` directory, and we use the `tmp/` directory as described below. So, we
-have added these to the `.gitignore` file.
+`public/` directory, and we use the `tmp/` directory as described below. These
+directories have been added to the `.gitignore` file.
 
 ## Creating the Initial Website
 
-We use a so-call [Organization Pages site] with a repository at
+We use an [Organization Pages site] with a repository at
 <https://github.com/lambdacats/lambdacats.github.io> to store the website files
 served from <https://lambdacats.github.io/>. This means the files must be found
 at the top level of the `master` branch.
@@ -93,7 +107,8 @@ Next, build the website:
 ~/lambdacats $ zola build
 ```
 
-Then, create an initial repository in `public/`:
+Then, create an initial repository in `public/`, where `zola build` put the
+website:
 
 ```
 ~/lambdacats $ git init public
@@ -125,9 +140,7 @@ the first error.
 
 To build the website, run `./build`. This script:
 
-1. ensures that we have a local clone of the [repository],
-
-[repository]: https://github.com/lambdacats/lambdacats.github.io
+1. ensures that we have a local clone of the [repository] in `public/`,
 
 2. runs `zola build`, and
 
