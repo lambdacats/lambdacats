@@ -1,6 +1,6 @@
 # Lambdacats Administration
 
-I use [GitHub Pages] to serve the [Lambdacats] website. This document describes
+We use [GitHub Pages] to serve the [Lambdacats] website. This document describes
 how the website was created and how it is updated.
 
 [GitHub Pages]: https://pages.github.com/
@@ -8,7 +8,7 @@ how the website was created and how it is updated.
 
 ## Background
 
-I use [Zola] to generate the webiste from [Markdown] files containing content
+We use [Zola] to generate the webiste from [Markdown] files containing content
 and [Tera] files containing templates for generating HTML.
 
 [Zola]: https://www.getzola.org/
@@ -64,9 +64,9 @@ This is a description of the files and directories in the repository.
 
 #### Other
 
-The command `zola build` (without flags) outputs generated files into a
-`public/` directory, and we use the `tmp/` directory as described below. So,
-we have added these to the `.gitignore` file.
+The command `zola build` (without flags) outputs generated files into the
+`public/` directory, and we use the `tmp/` directory as described below. So, we
+have added these to the `.gitignore` file.
 
 ## Creating the Initial Website
 

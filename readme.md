@@ -1,6 +1,6 @@
 # The Famous Lambdacats!
 
-The lambdacats are a fork of [lolcats] that generally involve humor from
+The lambdacats are a category of [lolcats] that generally involve humor from
 [Haskell], [functional programming], [type systems], and other related subjects.
 
 [lolcats]: https://en.wikipedia.org/wiki/Lolcat
@@ -12,10 +12,10 @@ This is a service to the community, and, as such, I welcome all contributions,
 including (but not limited to) adding new lambdacats, updating the information
 on the existing ones, and finding lost lambdacats.
 
-For technical information on the website, see the documentation on [lambdacats
-administration].
+For technical information on the website, see the [administration
+documentation].
 
-[lambdacats administration]: ./admin.md
+[administration documentation]: ./admin.md
 
 ## History
 
