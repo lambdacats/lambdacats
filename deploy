@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Exit on first error
+set -e
+
+# Go to the top level directory of the repository
+cd $(git rev-parse --show-toplevel)
+
+# Check for public/ and enter it
+if [ ! -d public ]; then
+  echo "Error: public/ not found. Run ./build.sh"
+  exit 1
+fi
+cd public
+
+# Update the local and remote repositories
+git add .
+git commit -m Update
+git push
