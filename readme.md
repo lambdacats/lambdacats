@@ -41,11 +41,11 @@ http://arcanux.org/lambdacats.html
 Alex Tarkovsky
 ```
 
-In August 2010, over a year after the [last lambdcat sighting], I
+In August 2010, over a year after the [last lambdacat sighting], I
 [created][created2] `https://spl.smugmug.com/Humor/Lambdacats/` in an attempt to
 preserve them for posterity.
 
-[last lambdcat sighting]: https://web.archive.org/web/20090406025530/http://arcanux.org/lambdacats.html
+[last lambdacat sighting]: https://web.archive.org/web/20090406025530/http://arcanux.org/lambdacats.html
 [created2]: https://mail.haskell.org/pipermail/haskell-cafe/2010-August/081606.html
 
 I ended my SmugMug subscription in August 2019 and created
