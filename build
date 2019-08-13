@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Exit on first error
+set -e
+
+# Go to the top level directory of the repository
+cd $(git rev-parse --show-toplevel)
+
+# Remove any existing tmp/
+rm -rf tmp
+
+# If public/ is not found, clone the repository
+if [ ! -d public ]; then
+  git clone git@github.com:lambdacats/lambdacats.github.io.git public
+fi
+
+# Save .git/
+mv public/.git tmp
+
+# Build the website. This deletes public/ if it exists.
+zola build
+
+# Restore .git/
+mv tmp public/.git
+
+# Show the repository status
+cd public
+CHANGES="$(git status --porcelain)"
+if [ -z "$CHANGES" ]; then
+  echo "No change"
+else
+  echo "Changes found:"
+  echo "$CHANGES"
+  echo "Run ./push.sh"
+  exit 1
+fi
