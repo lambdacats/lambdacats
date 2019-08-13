@@ -23,7 +23,7 @@ Alex Tarkovsky [created] the lambdacats in October 2007:
 
 [created]: https://mail.haskell.org/pipermail/haskell-cafe/2007-October/032654.html
 
-```quote
+```
 Brandon S. Allbery KF8NH wrote:
 > I can has English?  :)
 
@@ -35,7 +35,7 @@ http://arcanux.org/lambdacats.html
 
 -- 
 Alex Tarkovsky
-```quote
+```
 
 In August 2010, I [created] `https://spl.smugmug.com/Humor/Lambdacats` in an
 attempt to preserve them for posterity. I have culled from sources far and wide
