@@ -27,19 +27,17 @@ Alex Tarkovsky [created][created1] the lambdacats in October 2007:
 
 [created1]: https://mail.haskell.org/pipermail/haskell-cafe/2007-October/032654.html
 
-```
-Brandon S. Allbery KF8NH wrote:
-> I can has English?  :)
-
-This comment inspired what could be either the beginning of an infectious
-Haskell recruitment campaign, or just a sign that some of us are mad. I present
-the lambdacats:
-
-http://arcanux.org/lambdacats.html
-
--- 
-Alex Tarkovsky
-```
+> Brandon S. Allbery KF8NH wrote:
+> > I can has English?  :)
+>
+> This comment inspired what could be either the beginning of an infectious
+> Haskell recruitment campaign, or just a sign that some of us are mad. I present
+> the lambdacats:
+>
+> http://arcanux.org/lambdacats.html
+>
+> --
+> Alex Tarkovsky
 
 In August 2010, over a year after the [last lambdacat sighting], I
 [created][created2] `https://spl.smugmug.com/Humor/Lambdacats/` in an attempt to
