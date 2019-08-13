@@ -8,7 +8,7 @@ The lambdacats are a fork of [lolcats] that generally involve humor from
 [functional programming]: https://en.wikipedia.org/wiki/Functional_programming
 [type systems]: https://en.wikipedia.org/wiki/Type_system
 
-This is my service to the community, and, as such, I welcome all contributions,
+This is a service to the community, and, as such, I welcome all contributions,
 including (but not limited to) adding new lambdacats, updating the information
 on the existing ones, and finding lost lambdacats.
 
@@ -40,7 +40,7 @@ Alex Tarkovsky
 In August 2010, I [created][2] `https://spl.smugmug.com/Humor/Lambdacats` in an
 attempt to preserve them for posterity. I have culled from sources far and wide
 to develop this collection, which now contains many of the originals as well as
-many images inspired by or similar to the Lambdacats.
+images inspired by or similar to the lambdacats.
 
 [2]: https://mail.haskell.org/pipermail/haskell-cafe/2010-August/081606.html
 
