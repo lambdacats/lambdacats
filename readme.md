@@ -34,7 +34,7 @@ Alex Tarkovsky [created][created1] the lambdacats in October 2007:
 > Haskell recruitment campaign, or just a sign that some of us are mad. I present
 > the lambdacats:
 >
-> http://arcanux.org/lambdacats.html
+> `http://arcanux.org/lambdacats.html`
 >
 > --
 > Alex Tarkovsky
