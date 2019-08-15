@@ -8,5 +8,6 @@ hyde_sticky = true
 hyde_reverse = false
 hyde_theme = ""
 side_links = [
-    { url = "/about", name = "About" },
+    { path = "about", label = "About" },
+    { path = "lost", label = "Lostcats" },
 ]

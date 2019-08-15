@@ -38,10 +38,19 @@
 
         <ul class="sidebar-nav">
           {% block sidebar_nav %}
+          {% if section.components.0 %}
+          {% set path = section.components.0 %}
+          {% elif page.components.0 %}
+          {% set path = page.components.0 %}
+          {% endif %}
           {% for link in config.extra.side_links %}
-          <li class="sidebar-nav-item"><a href="{{ link.url }}">{{ link.name }}</a></li>
+          {% if path and path == link.path %}
+          {% set active = "active" %}
+          {% else %}
+          {% set active = "" %}
+          {% endif %}
+          <li class="sidebar-nav-item {{ active }}"><a href="{{ get_url(path='@/'~link.path~'/_index.md') }}">{{ link.label }}</a></li>
           {% endfor %}
-          <li class="sidebar-nav-item"><a href="{{ get_url(path="@/lost/_index.md") }}">Lost</a></li>
           {% endblock sidebar_nav %}
         </ul>
       </div>
