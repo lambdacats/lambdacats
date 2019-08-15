@@ -15,7 +15,4 @@ if [ ! -d public ]; then
 fi
 cd public
 
-# Update the local and remote repositories
-git add .
-git commit -m Update
-git push
+git diff

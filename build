@@ -40,11 +40,19 @@ if (( $STATUS )); then exit 1; fi
 cd public
 CHANGES="$(git status --porcelain)"
 if [ -z "$CHANGES" ]; then
-  echo "No change"
+  echo "No changes found"
 else
   echo "Changes found:"
+  echo
   echo "$CHANGES"
   echo
-  echo "If you're happy with the changes, run ./deploy"
+  echo "If you're happy with the changes:"
+  echo
+  echo "  ./deploy"
+  echo
+  echo "Otherwise:"
+  echo
+  echo "  ./inspect"
+  echo
   exit 1
 fi

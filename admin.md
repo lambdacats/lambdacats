@@ -71,6 +71,10 @@ This is a description of the files and directories in the repository.
 [`build`]: ./build
 [repository]: https://github.com/lambdacats/lambdacats.github.io
 
+* [`inspect`]: shows the changes made by `build` to the local website files
+
+[`inspect`]: ./inspect
+
 * [`deploy`]: commits changes made by `build` locally and pushes those commits
   to the remote repository
 
@@ -128,10 +132,10 @@ Visit <https://lambdacats.github.io/> to see the new website.
 
 ## Updating the Website
 
-To alleviate the maintenance burden, there are scripts for building the website
-and deploying it to GitHub. While the entire process could be combined into one
-script, it is separated into two so that we can inspect changes locally before
-deploying them.
+To alleviate the maintenance burden, there are scripts for building the website,
+inspecting local changes, and deploying it to GitHub. While the entire process
+could be combined into one script, it is separated into three so that we can
+inspect changes locally before deploying them.
 
 These scripts use Bash, can be run from anywhere in the repository, and exit on
 the first error.
@@ -145,6 +149,11 @@ To build the website, run `./build`. This script:
 2. runs `zola build`, and
 
 3. handles the management of `.git/` before and after `zola build`.
+
+### Inspecting
+
+To show the local changes made after running `build`, run `./inspect`. This
+script calls `git diff` on `public/`.
 
 ### Deploying
 
